@@ -1,0 +1,26 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "ScrapyCrawl: spcomputer",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "module": "scrapy",
+        //     "args": ["crawl", "spcomputer", "-o", "spcomputer.json"],
+        //     "console": "integratedTerminal",
+        //     "justMyCode": true
+        // },
+        {
+            "name": "ScrapyCrawl: topcomputer",
+            "type": "python",
+            "request": "launch",
+            "module": "scrapy",
+            "args": ["crawl", "topcomputer", "-o", "topcomputer.json"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
